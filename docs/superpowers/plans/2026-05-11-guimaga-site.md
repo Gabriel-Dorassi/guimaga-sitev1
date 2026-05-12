@@ -201,9 +201,7 @@ Expected: PASS
 - [ ] **Step 5: Replace src/app/globals.css**
 
 ```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   html {
