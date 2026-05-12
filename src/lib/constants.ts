@@ -12,8 +12,7 @@ export const CONTACT = {
   instagram: 'https://www.instagram.com/guimagaempilhadeiras/?hl=pt-br',
   linkedin:
     'https://www.linkedin.com/company/guimaga-empilhadeiras/posts/?feedView=all',
-  mapsEmbed:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.08!2d-46.916!3d-23.183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2c9a1f0a4c47%3A0xa!2sAv.%20Augusto%20Mazzi%2C%203190%20-%20Jundia%C3%AD%2C%20SP!5e0!3m2!1spt!2sbr!4v1',
+  mapsEmbed: 'https://maps.google.com/maps?q=Av.+Augusto+Mazzi+3190+Jundiai+SP+Brasil&output=embed',
 }
 
 export const NAV_LINKS = [
