@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/pagina.asp",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
