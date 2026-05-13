@@ -16,10 +16,11 @@ export const CONTACT = {
 }
 
 export const NAV_LINKS = [
-  { label: 'Home', href: '/' },
+  { label: 'Início',       href: '/' },
+  { label: 'A Empresa',    href: '/a-empresa' },
   { label: 'Equipamentos', href: '/equipamentos' },
-  { label: 'Sobre', href: '/sobre' },
-  { label: 'Contato', href: '/contato' },
+  { label: 'Sobre',        href: '/sobre' },
+  { label: 'Contato',      href: '/contato' },
 ]
 
 export const EQUIPMENT = [

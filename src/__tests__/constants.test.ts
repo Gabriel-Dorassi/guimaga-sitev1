@@ -16,8 +16,14 @@ describe('constants', () => {
   it('has 3 equipment types', () => {
     expect(EQUIPMENT).toHaveLength(3)
   })
-  it('has 4 nav links', () => {
-    expect(NAV_LINKS).toHaveLength(4)
+  it('has 5 nav links', () => {
+    expect(NAV_LINKS).toHaveLength(5)
+  })
+  it('first nav link is Início', () => {
+    expect(NAV_LINKS[0]).toEqual({ label: 'Início', href: '/' })
+  })
+  it('includes A Empresa nav link', () => {
+    expect(NAV_LINKS).toContainEqual({ label: 'A Empresa', href: '/a-empresa' })
   })
   it('Instagram URL is correct', () => {
     expect(CONTACT.instagram).toContain('instagram.com/guimagaempilhadeiras')
