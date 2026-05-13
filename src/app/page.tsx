@@ -56,7 +56,7 @@ export default function HomePage() {
       </section>
 
       {/* ── NUMBERS BAR ── */}
-      <section className="bg-navy py-10">
+      <section className="bg-navy py-6">
         <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 text-center text-white sm:grid-cols-3">
           {[
             { value: 'Est. 2010', label: 'Anos no mercado' },
@@ -74,9 +74,9 @@ export default function HomePage() {
       </section>
 
       {/* ── EQUIPMENT PREVIEW ── */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
-          <div className="mb-12 text-center">
+          <div className="mb-8 text-center">
             <span className="font-display text-xs font-bold uppercase tracking-widest text-yellow">
               Catálogo
             </span>
@@ -126,9 +126,9 @@ export default function HomePage() {
       </section>
 
       {/* ── WHY GUIMAGA ── */}
-      <section className="bg-offwhite py-20">
+      <section className="bg-offwhite py-12">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
-          <div className="mb-12 text-center">
+          <div className="mb-8 text-center">
             <span className="font-display text-xs font-bold uppercase tracking-widest text-yellow">
               Diferenciais
             </span>
@@ -156,7 +156,7 @@ export default function HomePage() {
       </section>
 
       {/* ── INSTITUTIONAL TEXT ── */}
-      <section className="py-16">
+      <section className="py-10">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <p className="text-lg leading-relaxed text-gray-mid md:text-xl">
             A Guimaga Empilhadeiras, fundada em 2010, construiu sua trajetória com foco
@@ -168,7 +168,7 @@ export default function HomePage() {
       </section>
 
       {/* ── CTA STRIP ── */}
-      <section className="bg-yellow py-14">
+      <section className="bg-yellow py-10">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="mb-4 font-display text-3xl font-extrabold text-navy md:text-4xl">
             Pronto para otimizar sua operação?

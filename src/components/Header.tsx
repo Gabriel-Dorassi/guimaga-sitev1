@@ -18,15 +18,16 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
-          <Image
-            src="/images/logo.svg"
-            alt="Guimaga Empilhadeiras"
-            width={160}
-            height={48}
-            className="h-10 w-auto brightness-0 invert"
-            priority
-            unoptimized
-          />
+          <div className="rounded-md bg-white px-2 py-1">
+            <Image
+              src="/images/logo.png"
+              alt="Guimaga Empilhadeiras"
+              width={140}
+              height={42}
+              className="h-9 w-auto"
+              priority
+            />
+          </div>
         </Link>
 
         {/* Desktop nav */}
