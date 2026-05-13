@@ -23,7 +23,7 @@ export default function HomePage() {
       {/* ── HERO ── */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80"
+          src="/images/hero-home.png"
           alt="Empilhadeira em operação em armazém"
           fill
           className="object-cover"
@@ -84,7 +84,7 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
-            {EQUIPMENT.map((item) => (
+            {EQUIPMENT.slice(0, 3).map((item) => (
               <div
                 key={item.id}
                 className="group overflow-hidden rounded-2xl bg-white shadow-md transition-shadow hover:shadow-xl"
