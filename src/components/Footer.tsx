@@ -12,15 +12,13 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <div className="mb-3 inline-block rounded-md bg-white px-2 py-1">
-              <Image
-                src="/images/logo.png"
-                alt="Guimaga Empilhadeiras"
-                width={140}
-                height={42}
-                className="h-9 w-auto"
-              />
-            </div>
+            <Image
+              src="/images/logo.png"
+              alt="Guimaga Empilhadeiras"
+              width={140}
+              height={42}
+              className="mb-3 h-9 w-auto"
+            />
             <p className="text-sm text-white/70">Locação de Empilhadeiras desde 2010</p>
             <div className="mt-4 flex gap-3">
               <a
