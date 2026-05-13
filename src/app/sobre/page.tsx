@@ -71,7 +71,9 @@ export default function SobrePage() {
                 consolidando verdadeiras parcerias com os nossos clientes.
               </p>
               <p className="leading-relaxed text-gray-mid">
-                Na agilidade do atendimento e acompanhamento rigoroso de sua frota.
+                Fundada em Jundiaí, a Guimaga edificou-se com base na agilidade do atendimento
+                e acompanhamento rigoroso de sua frota, promovendo uma relação de parceria
+                que vai além do simples aluguel de equipamentos.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
