@@ -90,13 +90,13 @@ export default function HomePage() {
                 key={item.id}
                 className="group overflow-hidden rounded-2xl bg-white shadow-md transition-shadow hover:shadow-xl"
               >
-                <div className="relative h-52 overflow-hidden">
+                <div className="relative h-52 overflow-hidden bg-white">
                   <Image
                     src={item.image}
                     alt={item.alt}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-contain p-4 transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-6">

@@ -25,6 +25,7 @@ export default function Header() {
             height={48}
             className="h-10 w-auto brightness-0 invert"
             priority
+            unoptimized
           />
         </Link>
 

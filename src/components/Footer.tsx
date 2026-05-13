@@ -18,6 +18,7 @@ export default function Footer() {
               width={140}
               height={42}
               className="mb-3 h-9 w-auto brightness-0 invert"
+              unoptimized
             />
             <p className="text-sm text-white/70">Locação de Empilhadeiras desde 2010</p>
             <div className="mt-4 flex gap-3">

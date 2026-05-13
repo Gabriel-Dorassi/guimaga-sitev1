@@ -33,8 +33,8 @@ export default function EquipamentosPage() {
           <div className="grid gap-10 md:grid-cols-3">
             {EQUIPMENT.map((item) => (
               <div key={item.id} className="overflow-hidden rounded-2xl bg-white shadow-md">
-                <div className="relative h-64">
-                  <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+                <div className="relative h-64 bg-white">
+                  <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain p-6" />
                 </div>
                 <div className="p-8">
                   <h2 className="mb-3 font-display text-2xl font-extrabold text-navy">
