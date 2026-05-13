@@ -26,12 +26,12 @@ export const NAV_LINKS = [
 export const EQUIPMENT = [
   {
     id: 'glp',
-    name: 'Empilhadeira a GLP',
+    name: 'Empilhadeira GLP',
     description:
       'Alta performance para uso interno e externo. Indicada para operações de maior exigência e capacidade de carga.',
     image: '/images/equipamentos/glp.png',
-    alt: 'Empilhadeira a GLP amarela com garfos vermelhos',
-    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira a GLP. Pode me passar mais informações?',
+    alt: 'Empilhadeira GLP amarela com garfos vermelhos',
+    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira GLP. Pode me passar mais informações?',
   },
   {
     id: 'contrabalancada',

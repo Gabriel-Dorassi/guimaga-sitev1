@@ -5,15 +5,24 @@ import { EQUIPMENT, WHATSAPP_LINK, WHATSAPP_NUMBER } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Equipamentos',
   description:
-    'Conheça nossa frota: empilhadeiras a GLP, contrabalançada, retrátil, paleteira elétrica, transpaleteira e patolada para locação em Jundiaí – SP.',
+    'Conheça nossa frota: empilhadeiras GLP, contrabalançada, retrátil, paleteira elétrica, transpaleteira e patolada para locação em Jundiaí – SP.',
 }
 
 export default function EquipamentosPage() {
   return (
     <>
       {/* ── BANNER ── */}
-      <section className="bg-navy py-20 text-center text-white">
-        <div className="mx-auto max-w-3xl px-4">
+      <section className="relative overflow-hidden py-20 text-center text-white">
+        <Image
+          src="/images/hero-home.png"
+          alt="Empilhadeira em operação em armazém"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-navy/75" />
+        <div className="relative z-10 mx-auto max-w-3xl px-4">
           <span className="font-display text-xs font-bold uppercase tracking-widest text-yellow">
             Catálogo
           </span>

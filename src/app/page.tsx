@@ -57,11 +57,10 @@ export default function HomePage() {
 
       {/* ── NUMBERS BAR ── */}
       <section className="bg-navy py-6">
-        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 text-center text-white sm:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-4 text-center text-white sm:grid-cols-2">
           {[
-            { value: 'Est. 2010', label: 'Anos no mercado' },
+            { value: '16 anos', label: 'no mercado' },
             { value: 'Jundiaí/SP', label: 'Atendimento regional' },
-            { value: 'Novas e Seminovas', label: 'Frotas disponíveis' },
           ].map((stat) => (
             <div key={stat.value}>
               <div className="font-display text-3xl font-extrabold text-yellow md:text-4xl">

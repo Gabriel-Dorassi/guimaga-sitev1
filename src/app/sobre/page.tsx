@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { Calendar, MapPin, Headphones, DollarSign, Zap, Handshake } from 'lucide-react'
 import { WHATSAPP_LINK } from '@/lib/constants'
 
@@ -35,8 +36,17 @@ export default function SobrePage() {
   return (
     <>
       {/* ── BANNER ── */}
-      <section className="bg-navy py-20 text-center text-white">
-        <div className="mx-auto max-w-3xl px-4">
+      <section className="relative overflow-hidden py-20 text-center text-white">
+        <Image
+          src="/images/hero-home.png"
+          alt="Empilhadeira em operação em armazém"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-navy/75" />
+        <div className="relative z-10 mx-auto max-w-3xl px-4">
           <span className="font-display text-xs font-bold uppercase tracking-widest text-yellow">
             Nossa História
           </span>
@@ -61,9 +71,7 @@ export default function SobrePage() {
                 consolidando verdadeiras parcerias com os nossos clientes.
               </p>
               <p className="leading-relaxed text-gray-mid">
-                Fundada em Jundiaí, a Guimaga edificou-se com base no forte atendimento de
-                pós-locação, promovendo uma relação de parceria que vai além do simples aluguel
-                de equipamentos.
+                Na agilidade do atendimento e acompanhamento rigoroso de sua frota.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
