@@ -19,7 +19,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.svg"
             alt="Guimaga Empilhadeiras"
             width={160}
             height={48}

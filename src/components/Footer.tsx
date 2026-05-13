@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.svg"
               alt="Guimaga Empilhadeiras"
               width={140}
               height={42}
