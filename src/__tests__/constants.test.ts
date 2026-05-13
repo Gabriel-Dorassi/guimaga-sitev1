@@ -13,8 +13,13 @@ describe('constants', () => {
   it('contact email is defined', () => {
     expect(CONTACT.email).toContain('@')
   })
-  it('has 3 equipment types', () => {
-    expect(EQUIPMENT).toHaveLength(3)
+  it('has 6 equipment types', () => {
+    expect(EQUIPMENT).toHaveLength(6)
+  })
+  it('all equipment items have local image paths', () => {
+    EQUIPMENT.forEach((item) => {
+      expect(item.image).toMatch(/^\/images\//)
+    })
   })
   it('has 5 nav links', () => {
     expect(NAV_LINKS).toHaveLength(5)

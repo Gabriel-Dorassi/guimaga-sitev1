@@ -25,34 +25,58 @@ export const NAV_LINKS = [
 
 export const EQUIPMENT = [
   {
-    id: 'eletrica',
-    name: 'Empilhadeira Elétrica',
-    description:
-      'Ideal para uso interno. Silenciosa, sem emissão de gases e disponível em diversas capacidades de carga.',
-    image:
-      'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=800&q=80',
-    alt: 'Empilhadeira elétrica em operação em armazém',
-    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira Elétrica. Pode me passar mais informações?',
-  },
-  {
     id: 'glp',
     name: 'Empilhadeira a GLP',
     description:
       'Alta performance para uso interno e externo. Indicada para operações de maior exigência e capacidade de carga.',
-    image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
-    alt: 'Empilhadeira a GLP em operação em armazém',
+    image: '/images/equipamentos/glp.png',
+    alt: 'Empilhadeira a GLP amarela com garfos vermelhos',
     whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira a GLP. Pode me passar mais informações?',
   },
   {
-    id: 'paleteira',
+    id: 'contrabalancada',
+    name: 'Empilhadeira Contrabalançada',
+    description:
+      'Versatilidade para uso interno e externo. Motor elétrico silencioso e eficiente, com ótima estabilidade em diferentes pisos.',
+    image: '/images/equipamentos/contrabalancada.png',
+    alt: 'Empilhadeira contrabalançada elétrica amarela',
+    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira Contrabalançada. Pode me passar mais informações?',
+  },
+  {
+    id: 'retratil',
+    name: 'Empilhadeira Retrátil',
+    description:
+      'Ideal para corredores estreitos e armazenagem em grande altura. Maximiza o aproveitamento vertical do armazém.',
+    image: '/images/equipamentos/retratil.png',
+    alt: 'Empilhadeira retrátil em armazém',
+    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira Retrátil. Pode me passar mais informações?',
+  },
+  {
+    id: 'paleteira-eletrica',
     name: 'Paleteira Elétrica',
     description:
       'Movimentação horizontal ágil e eficiente. Ideal para armazéns e centros de distribuição.',
-    image:
-      'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
-    alt: 'Paleteira elétrica em armazém',
+    image: '/images/equipamentos/paleteira-eletrica.png',
+    alt: 'Paleteira elétrica',
     whatsappMsg: 'Olá! Tenho interesse em locar uma Paleteira Elétrica. Pode me passar mais informações?',
+  },
+  {
+    id: 'transpaleteira-eletrica',
+    name: 'Transpaleteira Elétrica',
+    description:
+      'Agilidade na movimentação de cargas em longas distâncias, com plataforma para operador embarcado.',
+    image: '/images/equipamentos/transpaleteira-eletrica.png',
+    alt: 'Transpaleteira elétrica com plataforma',
+    whatsappMsg: 'Olá! Tenho interesse em locar uma Transpaleteira Elétrica. Pode me passar mais informações?',
+  },
+  {
+    id: 'patolada',
+    name: 'Empilhadeira Patolada',
+    description:
+      'Solução compacta para armazenagem em corredores estreitos e espaços reduzidos com alta eficiência.',
+    image: '/images/equipamentos/patolada.png',
+    alt: 'Empilhadeira patolada verde',
+    whatsappMsg: 'Olá! Tenho interesse em locar uma Empilhadeira Patolada. Pode me passar mais informações?',
   },
 ]
 
