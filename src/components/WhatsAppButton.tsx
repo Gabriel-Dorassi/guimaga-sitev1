@@ -10,13 +10,13 @@ export default function WhatsAppButton() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Fale pelo WhatsApp"
-        className="relative flex h-14 w-14 items-center justify-center transition-transform hover:scale-110"
+        className="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] transition-transform hover:scale-110"
       >
         <Image
           src="/images/wpp.png"
           alt="WhatsApp"
-          width={56}
-          height={56}
+          width={48}
+          height={48}
           unoptimized
         />
       </a>
