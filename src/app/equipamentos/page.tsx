@@ -5,7 +5,7 @@ import { EQUIPMENT, WHATSAPP_LINK, WHATSAPP_NUMBER } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Equipamentos',
   description:
-    'Conheça nossa frota: empilhadeiras elétricas, a GLP e paleteiras elétricas para locação em Jundiaí – SP.',
+    'Conheça nossa frota: empilhadeiras a GLP, contrabalançada, retrátil, paleteira elétrica, transpaleteira e patolada para locação em Jundiaí – SP.',
 }
 
 export default function EquipamentosPage() {
@@ -34,7 +34,7 @@ export default function EquipamentosPage() {
             {EQUIPMENT.map((item) => (
               <div key={item.id} className="overflow-hidden rounded-2xl bg-white shadow-md">
                 <div className="relative h-64">
-                  <Image src={item.image} alt={item.alt} fill className="object-cover" />
+                  <Image src={item.image} alt={item.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
                 </div>
                 <div className="p-8">
                   <h2 className="mb-3 font-display text-2xl font-extrabold text-navy">

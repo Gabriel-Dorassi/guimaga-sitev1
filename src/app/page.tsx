@@ -26,6 +26,7 @@ export default function HomePage() {
           src="/images/hero-home.png"
           alt="Empilhadeira em operação em armazém"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
@@ -94,6 +95,7 @@ export default function HomePage() {
                     src={item.image}
                     alt={item.alt}
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
