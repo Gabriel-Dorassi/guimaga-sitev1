@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
         className="relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-[#25D366] transition-transform hover:scale-110"
       >
         <Image
-          src="/images/wpp.png"
+          src="/images/wpp.avif"
           alt="WhatsApp"
           width={48}
           height={48}
