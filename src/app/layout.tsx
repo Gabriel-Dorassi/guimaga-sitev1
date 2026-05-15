@@ -72,13 +72,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             });
             return false;
           }
-          document.addEventListener('DOMContentLoaded', function() {
+          function attachWhatsAppTracking() {
             document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp"]').forEach(function(el) {
               el.addEventListener('click', function() {
                 gtag_report_conversion(el.href);
               });
             });
-          });
+          }
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', attachWhatsAppTracking);
+          } else {
+            attachWhatsAppTracking();
+          }
         `}</Script>
       </body>
     </html>
