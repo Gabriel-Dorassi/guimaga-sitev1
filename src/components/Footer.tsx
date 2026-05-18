@@ -17,7 +17,7 @@ export default function Footer() {
               alt="Guimaga Empilhadeiras"
               width={140}
               height={42}
-              className="mb-3 h-9 w-auto"
+              className="mb-3 h-16 w-auto"
             />
             <p className="text-sm text-white/70">Locação de Empilhadeiras desde 2010</p>
             <div className="mt-4 flex gap-3">
