@@ -23,7 +23,7 @@ export default function Header() {
             alt="Guimaga Empilhadeiras"
             width={160}
             height={48}
-            className="h-16 w-auto"
+            className="h-20 w-auto"
             priority
           />
         </Link>
